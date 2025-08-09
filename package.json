@@ -82,3 +82,12 @@
     "vite": "^5.4.1"
   }
 }
+
+"homepage": "https://tabiurrahman.github.io/acpsitcweb",
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+
